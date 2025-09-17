@@ -7,7 +7,7 @@
         density="comfortable"
         >
         <template v-slot:prepend>
-          <div style="width:100px; margin:0px !important; padding:0px !important;"><v-img style="height:100%; width: 100%;" src="../public/icon.jpg"></v-img></div>
+          <div style="width:100px; margin:0px !important; padding:0px !important;"><v-img style="height:100%; width: 100%;" src="./src/assets/images/icon.jpg"></v-img></div>
         </template>
  
         <v-app-bar-title class="d-flex justify-center flex-row">
@@ -25,7 +25,7 @@
 
       <v-main>
         <!-- <v-container fluid> -->
-          <v-parallax height="100vh" src="../public/hero.jpg">
+          <v-parallax height="100vh" src="./src/assets/images/hero.jpg">
     <div class="d-flex flex-column justify-center align-center text-white" style="margin-top: 30vh;">
       <!-- <h1 class="text-h1">
         <b>Your Voice.</b>
@@ -223,6 +223,6 @@
 <style>
   .v-toolbar__prepend{
     margin: 0px !important;
-    
+
   }
 </style>
