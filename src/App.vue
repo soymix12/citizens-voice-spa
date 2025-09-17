@@ -25,7 +25,7 @@
 
       <v-main>
         <!-- <v-container fluid> -->
-          <v-parallax height="100vh" src="./src/assets/images/hero.jpg">
+          <v-parallax height="100vh" src="url(./src/assets/images/hero.jpg)">
     <div class="d-flex flex-column justify-center align-center text-white" style="margin-top: 30vh;">
       <!-- <h1 class="text-h1">
         <b>Your Voice.</b>
