@@ -7,7 +7,7 @@
         density="comfortable"
         >
         <template v-slot:prepend>
-          <div class="ma-3" style="color:#FF5349"><h3>Citizens Voice</h3></div>
+          <div style="width:100px; margin:0px !important; padding:0px !important;"><v-img style="height:100%; width: 100%;" src="../public/icon.jpg"></v-img></div>
         </template>
  
         <v-app-bar-title class="d-flex justify-center flex-row">
@@ -19,22 +19,20 @@
 
   
         <template v-slot:append>
-          <v-btn style="background-color:#FF5349" rounded="xl"  class="ma-4"><span style="color:white">Join Now</span></v-btn>
+          <v-btn style="background-color:#FF5349" rounded="xl"><span style="color:white">Join Now</span></v-btn>
         </template>
       </v-app-bar>
 
       <v-main>
         <!-- <v-container fluid> -->
-          <v-parallax class="filter"
-    src="https://readdy.ai/api/search-image?query=Diverse%20group%20of%20citizens%20holding%20protest%20signs%20and%20banners%20in%20front%20of%20government%20building%2C%20peaceful%20demonstration%2C%20American%20flags%2C%20people%20of%20all%20ages%20and%20backgrounds%20united%20for%20change%2C%20dramatic%20lighting%2C%20inspiring%20atmosphere%2C%20photojournalism%20style%2C%20high%20contrast%2C%20authentic%20grassroots%20movement&width=1920&height=1080&seq=hero1&orientation=landscape"
-    >
-    <div class="filter d-flex flex-column ma-8 justify-center align-center text-white">
-      <h1 class="text-h1">
+          <v-parallax height="100vh" src="../public/hero.jpg">
+    <div class="d-flex flex-column justify-center align-center text-white" style="margin-top: 30vh;">
+      <!-- <h1 class="text-h1">
         <b>Your Voice.</b>
       </h1>
       <h1 class="text-h1">
         <b style="color:#FF5349">Our Strength.</b>
-      </h1>
+      </h1> -->
       <v-col style="width: 55%; text-align: center;">
         <h3>
           We are the collective voice of citizens who refuse to accept empty promises and political rhetoric. Together, we demand real change, accountability, and genuine representation.
@@ -223,7 +221,8 @@
   }
 </script>
 <style>
-  .filter::before{
-    filter:brightness(10%);
+  .v-toolbar__prepend{
+    margin: 0px !important;
+    
   }
 </style>
