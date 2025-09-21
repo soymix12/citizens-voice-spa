@@ -493,6 +493,76 @@
       </v-col>
     </v-row>
   </v-container>
+  <v-container class="text-white" fluid style="background-color:#111827; height:60vh;">
+    <v-row style="margin-top:50px;">
+      <v-col cols="12" sm="12" md="6">
+        <v-col cols=12 sm="12" md="12" style="margin:0px; padding:0px;"><h3 class="pa-2">Citizens Voice</h3></v-col>
+        <v-col cols=12 sm="12" md="12" style="margin:0px; padding:0px;"><p class="pa-2">Empowering everyday citizens to create meaningful change in their communities through organized advocacy and grassroots action.</p></v-col>
+        
+        <v-col style="margin:0px; padding:0px;" cols=12 sm="12" md="12">
+          <div class="pa-2">
+            <v-btn
+                  elevation="0"
+                  class="mr-3"
+                  color="#FF5349"
+                  icon="mdi-facebook"
+                  size="small"
+                ></v-btn>
+                <v-btn
+                  elevation="0"
+                  class="mr-3"
+                  color="#FF5349"
+                  icon="mdi-twitter"
+                    size="small"
+                ></v-btn>
+                <v-btn
+                
+                  elevation="0"
+                  class="mr-3"
+                  color="#FF5349"
+                  icon="mdi-instagram"
+                    size="small"
+                ></v-btn>
+                <v-btn
+                
+                elevation="0"
+                class="mr-3"
+                color="#FF5349"
+                icon="mdi-linkedin"
+                  size="small"
+              ></v-btn>
+          </div>
+  
+                
+        </v-col>
+      </v-col>
+      <v-col cols="12" sm="12" md="6">
+        <v-row>
+          <v-col cols="12" sm="12" md="6">
+          <h4>Get Involved</h4>
+          <p>Become A Member</p>
+          <p>Volunteer</p>
+          <p>Start A Campaign</p>
+          <p>Donate</p>
+        </v-col>
+        <v-col cols="12" sm="12" md="6">
+          <h4>Resources</h4>
+          <p>Advocacy Training</p>
+          <p>Policy Updates</p>
+          <p>Success Stories</p>
+          <p>Contact Us</p>
+        </v-col>
+        </v-row>
+ 
+      </v-col>
+    </v-row>
+    
+    <hr style="margin-top:3em;">
+    <v-row class="py-5">
+      <v-col>© 2024 Citizens Voice. All rights reserved.</v-col>
+      <v-col></v-col>
+    </v-row>
+  </v-container>
       </v-main>
     </v-layout>
 </template>
