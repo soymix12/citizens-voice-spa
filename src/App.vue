@@ -4,10 +4,10 @@
     <v-layout>
       <v-app-bar
         color="white"
-        density="comfortable"
+        height="90"
         >
         <template v-slot:prepend>
-          <div style="width:100px; margin:0px !important; padding:0px !important;"><v-img style="height:100%; width: 100%;" src="/icon.jpg"></v-img></div>
+          <div style="width:120px; margin:0px !important; padding:0px !important;"><v-img style="height:100%; width: 100%;" src="/icon.jpg"></v-img></div>
         </template>
  
         <v-app-bar-title class="d-flex justify-center flex-row">
@@ -25,8 +25,8 @@
 
       <v-main>
         <!-- <v-container fluid> -->
-        <v-parallax height="100vh" src="/hero.jpg">
-        <div class="d-flex flex-column justify-center align-center text-white" style="margin-top: 30vh;">
+        <v-parallax  src="/hero.jpg">
+        <div class="d-flex flex-column justify-center align-center text-white" style="margin-top: 50vh;">
       <!-- <h1 class="text-h1">
         <b>Your Voice.</b>
       </h1>
@@ -493,7 +493,7 @@
       </v-col>
     </v-row>
   </v-container>
-  <v-container class="text-white" fluid style="background-color:#111827; height:60vh;">
+  <v-container class="text-white" fluid style="background-color:#111827;">
     <v-row style="margin-top:50px;">
       <v-col cols="12" sm="12" md="6">
         <v-col cols=12 sm="12" md="12" style="margin:0px; padding:0px;"><h3 class="pa-2">Citizens Voice</h3></v-col>
