@@ -3,7 +3,7 @@
 <template>
     <v-layout>
       <v-app-bar
-        color="white"
+        color="black"
         height="90"
         >
         <template v-slot:prepend>
@@ -41,12 +41,18 @@
      
  
       </v-col>
-      <v-col>
-        <div class="d-flex justify-center flex-row pt-4">
+      <v-row>
+        <v-col cols="12" sm="12" md="6" style="text-align: center;">
+        <!-- <div class="d-flex justify-center flex-row pt-4"> -->
           <v-btn color="#FF5349" rounded="xl" size="x-large" class="ma-1">Join the Movement</v-btn>
-          <v-btn rounded="xl" variant="outlined" size="x-large" class="ma-1">Learn Our Story</v-btn>
-        </div>
+         
+        <!-- </div> -->
       </v-col>
+      <v-col cols="12" sm="12" md="6" style="text-align: center;">
+        <v-btn rounded="xl" variant="outlined" size="x-large" class="ma-1">Learn Our Story</v-btn>
+      </v-col>
+      </v-row>
+
       <v-row class="text-center ma-5">
         <v-col md="4">
           <h1 style="color: orangered">50K+</h1>
@@ -135,17 +141,18 @@
   <v-container class="text-center">
     <div class="d-flex flex-column ma-8 justify-center align-center">
     <div><h1>Real Stories, Real Change</h1></div>
-    <div style="width:50%;"><p>Hear from citizens who turned their frustration into action and achieved meaningful results in their communities.</p></div>
+    <v-col cols="12" sm="12" md="6"><p>Hear from citizens who turned their frustration into action and achieved meaningful results in their communities.</p></v-col>
     </div>
     <div>  
       <v-carousel
       :show-arrows="false"
+      height="auto"
       >
-        <v-carousel-item
+        <v-carousel-item style="height:100%;"
         >
         <v-row style="height: 100%;" align="center" justify="center" no-gutters>
-          <v-col align="center" justify="center" cols="12" sm="12" md="4">
-            <v-img style="border-radius: 50%;"width="50%" src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20Asian%20American%20woman%20in%20her%2030s%2C%20small%20business%20owner%2C%20confident%20smile%2C%20professional%20but%20approachable%2C%20natural%20lighting%2C%20authentic%20entrepreneur%20and%20community%20leader%2C%20simple%20background&width=400&height=400&seq=testimonial3&orientation=squarish"></v-img>
+          <v-col align="center" class="pa-3" justify="center" cols="12" sm="4" md="4">
+            <v-img rounded="circle" style="max-width:180px;" src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20Asian%20American%20woman%20in%20her%2030s%2C%20small%20business%20owner%2C%20confident%20smile%2C%20professional%20but%20approachable%2C%20natural%20lighting%2C%20authentic%20entrepreneur%20and%20community%20leader%2C%20simple%20background&width=400&height=400&seq=testimonial3&orientation=squarish"></v-img>
           </v-col>
           <v-col cols="12" sm="12" md="8" align="left">
             <div style="font-size: 20px;">
