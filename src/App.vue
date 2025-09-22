@@ -197,7 +197,7 @@
         <v-col cols="12" md="4">
       <v-card
         link
-        class="mx-auto"
+        class="mx-auto zoom"
       >
         <v-card-title> <v-btn
                   elevation="0"
@@ -215,7 +215,7 @@
     <v-col cols="12" md="4">
       <v-card
         link
-        class="mx-auto"
+        class="mx-auto zoom"
       >
         <v-card-title> <v-btn
                   elevation="0"
@@ -233,7 +233,7 @@
     <v-col cols="12" md="4">
       <v-card
         link
-        class="mx-auto"
+        class="mx-auto zoom"
       >
         <v-card-title> <v-btn
                   elevation="0"
@@ -253,7 +253,7 @@
         <v-col cols="12" md="4">
       <v-card
         link
-        class="mx-auto"
+        class="mx-auto zoom"
       >
         <v-card-title> <v-btn
                   elevation="0"
@@ -271,7 +271,7 @@
     <v-col cols="12" md="4">
       <v-card
         link
-        class="mx-auto"
+        class="mx-auto zoom"
       >
         <v-card-title> <v-btn
                   elevation="0"
@@ -289,7 +289,7 @@
     <v-col cols="12" md="4">
       <v-card
         link
-        class="mx-auto"
+        class="mx-auto zoom"
       >
         <v-card-title> <v-btn
                   elevation="0"
@@ -622,5 +622,13 @@
     color: white;
     text-align: left;
   }
+  .zoom {
 
+  transition: transform .2s; /* Animation */
+
+}
+  .zoom:hover {
+    z-index: 1000;
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
 </style>
