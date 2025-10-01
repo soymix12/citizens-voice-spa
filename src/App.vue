@@ -7,10 +7,10 @@
         height="90"
         >
         <template v-slot:prepend>
-          <div style="width:120px; margin:0px !important; padding:0px !important;"><v-img style="height:100%; width: 100%;" src="/icon.jpg"></v-img></div>
+          <div style="width:140px; margin:0px !important; padding:0px !important;"><v-img style="height:100%; width: 100%;" src="/icon.jpg"></v-img></div>
         </template>
  
-        <v-app-bar-title class="d-flex justify-center flex-row">
+        <v-app-bar-title v-if="!this.$vuetify.display.mobile" class="d-flex justify-center flex-row">
           <v-btn>Our Mission</v-btn>
           <v-btn>Stories</v-btn>
           <v-btn>Impact</v-btn>
@@ -18,7 +18,7 @@
         </v-app-bar-title>
 
         <template v-slot:append>
-          <v-btn style="background-color:#FF5349" rounded="xl"><span style="color:white">Join Now</span></v-btn>
+          <v-btn class="mr-3" style="background-color:#FF5349" rounded="xl"><span style="color:white">Join Now</span></v-btn>
         </template>
       </v-app-bar>
 
@@ -32,7 +32,7 @@
               </h3> -->
               <div style="text-align: center;">
                   <div style="display: inline-block; font-size:30px; text-align: left;">
-                  <h1><a class="marker">AKO</a> ang Simula.</h1>
+                  <h1><span class="marker">AKO</span> ang Simula.</h1>
                 <h1>AKO ang Pagbabago.</h1>
                 <h1>AKO ang Bayan.</h1>
                 </div>
@@ -607,7 +607,7 @@
       
       var pathLength = 1000 * this.path.getTotalLength();
   
-      this.path.setAttribute('d', this.circlePath(-0.01,0.10,120,150,0.09,0.3))
+      this.path.setAttribute('d', this.circlePath(0.03,0.04,115,120,0.3,0.4))
       this.path.setAttribute('stroke-dasharray', pathLength)
       this.path.setAttribute('stroke-dashoffset', pathLength)
     },
@@ -631,6 +631,7 @@
           [d * r * Math.sin(θ - β), d * r * Math.cos(θ - β)];
         path += " " + [r * Math.sin(θ), r * Math.cos(θ)];
       }
+      console.log(path)
       return path;
     }
 
