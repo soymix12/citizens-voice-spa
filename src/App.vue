@@ -4,10 +4,10 @@
     <v-layout>
       <v-app-bar
         color="black"
-        height="90"
+        height="100"
         >
         <template v-slot:prepend>
-          <div style="width:140px; margin:0px !important; padding:0px !important;"><v-img style="height:100%; width: 100%;" src="/icon.jpg"></v-img></div>
+          <div  style="width:100px; margin:0px !important; padding:0px !important;"><v-img class="ma-3" style="height:100%; width: 100%;" src="/icon.png"></v-img></div>
         </template>
  
         <v-app-bar-title v-if="!this.$vuetify.display.mobile" class="d-flex justify-center flex-row">
@@ -46,7 +46,7 @@
                 <v-btn color="#FF5349" rounded="xl" size="x-large" class="ma-1">Join the Movement</v-btn>
               </v-col>
               <v-col cols="12" sm="12" md="6" style="text-align: center;">
-                <v-btn rounded="xl" variant="outlined" size="x-large" class="ma-1">Learn Our Story</v-btn>
+                <v-btn rounded="xl" color="white"  size="x-large" class="ma-1"><span style="color:#FF5349">Learn Our Story</span></v-btn>
               </v-col>
             </v-row>
 
@@ -153,7 +153,7 @@
                     <div style="font-size: 20px;">
                     <p><v-icon style="color:#FF5349">mdi-format-quote-open</v-icon></p>
                     <br>
-                    <p>Empty promises about supporting small businesses were all we heard. Citizens Voice helped us organize local business owners to demand real policy changes. We now have the support and resources we need to thrive.</p>
+                    <p>Empty promises about supporting small businesses were all we heard. Reforma Pilipinas helped us organize local business owners to demand real policy changes. We now have the support and resources we need to thrive.</p>
                     <br>
                     <p><b>Sarah Chen</b></p>
                     <p>Small Business Owner</p>
@@ -174,7 +174,7 @@
                   <div style="font-size: 20px;">
                   <p><v-icon style="color:#FF5349">mdi-format-quote-open</v-icon></p>
                   <br>
-                  <p>I served this country, but when I came home, our leaders forgot about veterans like me. Citizens Voice gave me a platform to fight for veteran healthcare reform. Now my fellow veterans are getting the care they earned.
+                  <p>I served this country, but when I came home, our leaders forgot about veterans like me. Reforma Pilipinas gave me a platform to fight for veteran healthcare reform. Now my fellow veterans are getting the care they earned.
                   </p>
                   <br>
                   <p><b>James Thompson</b></p>
@@ -322,13 +322,13 @@
     <div class="pa-3 text-center d-flex flex-column justify-center align-center">
     <h1>Join the Movement</h1>
 
-      <v-col style="text-align: center;" justify="center" align="center" class="text-center" cols="12" sm=12 md="6"><h3>Ready to turn your frustration into action? Become a member of Citizens Voice and help create the change your community needs.</h3></v-col>
+      <v-col style="text-align: center;" justify="center" align="center" class="text-center" cols="12" sm=12 md="6"><h3>Ready to turn your frustration into action? Become a member of Reforma Pilipinas and help create the change your community needs.</h3></v-col>
     </div>
     <v-row>
       <v-col cols="12" sm="12" md="6">
         <v-col style="background-color:#FEF2F2 !important; border-radius:10px;"cols="12" sm="12" md="12">
           <div style="width:100%;" class="pa-5">
-            <h2>Why Join Citizen's Voice?</h2>
+            <h2>Why Join Reforma Pilipinas?</h2>
               <li class="ma-3">
                 <b>Direct Impact:</b> Your voice will be heard by decision-makers who can create real change
               </li>
@@ -346,7 +346,7 @@
 
         <v-col class="mt-8" style="background-color:#f9fafb; border-radius:10px;"cols="12" sm="12" md="12">
           <div style="width:100%;" class="pa-5">
-            <h2>Why Join Citizen's Voice?</h2>
+            <h2>Why Join Reforma Pilipinas?</h2>
               <li class="ma-3">
                 <b>Direct Impact:</b> Your voice will be heard by decision-makers who can create real change
               </li>
@@ -367,38 +367,161 @@
       <v-col cols="12" sm="12" md="6" style="background-color:#f9fafb;">
         <v-row style="margin:0px; padding:0px;">
           
-          <v-col cols="12" sm="12" md="6">
+      <v-col cols="12" sm="12" md="4">
           <v-text-field
         color="primary"
-        label="First name"
+        label="First Name"
         hide-details="auto"
       ></v-text-field>
         </v-col>
-        <v-col cols="12" sm="12" md="6">
-          <v-text-field
-        color="primary"
-        label="Last name"
-        hide-details="auto"
-      ></v-text-field>
-        </v-col>
-        <v-col cols="12" sm="12" md="12">
+        <v-col cols="12" sm="12" md="4">
+        <v-text-field
+          color="primary"
+          label="Middle Name"
+          hide-details="auto"
+        ></v-text-field>
+      </v-col>
+      <v-col cols="12" sm="12" md="4">
+        <v-text-field
+          color="primary"
+          label="Last Name"
+          hide-details="auto"
+        ></v-text-field>
+      </v-col>
+      <!-- <v-col cols="12" sm="12" md="1">
+        <v-text-field
+          color="primary"
+          label="Suffix"
+          hide-details="auto"
+        ></v-text-field> -->
+      <!-- </v-col> -->
+      <v-col cols="12" sm="12" md="3">
+        <v-text-field
+          color="primary"
+          label="Nickname"
+          hide-details="auto"
+        ></v-text-field>
+      </v-col>
+      <!-- <v-col cols="12" sm="12" md="3">
+        <v-text-field
+          color="primary"
+          label="Telephone Number"
+          hide-details="auto"
+        ></v-text-field>
+      </v-col> -->
+      <v-col cols="12" sm="12" md="4">
+        <v-text-field
+          color="primary"
+          label="Cellphone Number"
+          hide-details="auto"
+        ></v-text-field>
+      </v-col>
+        <v-col cols="12" sm="12" md="5">
           <v-text-field
         color="primary"
         label="Email"
         hide-details="auto"
       ></v-text-field>
+      </v-col>
+        <v-col cols="12" sm="12" md="3">
+          <v-select
+        color="primary"
+        label="Gender"
+        hide-details="auto"
+        :items="['Male', 'Female', 'Prefer Not To Say']"
+      ></v-select>
+        </v-col>
+        <v-col cols="12" sm="12" md="3">
+          <v-select
+        color="primary"
+        label="Civil Status"
+        hide-details="auto"
+        :items="['Single', 'Married', 'Separated', 'Widow']"
+      ></v-select>
         </v-col>
         <v-col cols="12" sm="12" md="6">
           <v-text-field
         color="primary"
-        label="Phone"
+        label="Name of Spouse, if married"
         hide-details="auto"
       ></v-text-field>
         </v-col>
-        <v-col cols="12" sm="12" md="6">
+        <v-col cols="12" sm="12" md="4">
           <v-text-field
         color="primary"
-        label="Zip Code"
+        label="Date Of Birth"
+        hide-details="auto"
+      ></v-text-field>
+        </v-col>
+        <v-col cols="12" sm="12" md="2">
+          <v-text-field
+        color="primary"
+        label="Age"
+        hide-details="auto"
+      ></v-text-field>
+        </v-col>
+  
+        <v-col cols="12" sm="12" md="3">
+          <v-text-field
+        color="primary"
+        label="Place of Birth"
+        hide-details="auto"
+      ></v-text-field>
+        </v-col>
+        <v-col cols="12" sm="12" md="3">
+          <v-text-field
+        color="primary"
+        label="Religion"
+        hide-details="auto"
+      ></v-text-field>
+        </v-col>
+        <v-col cols="12" sm="12" md="2">
+          <v-text-field
+        color="primary"
+        label="Number"
+        hide-details="auto"
+      ></v-text-field>
+        </v-col>
+        <v-col cols="12" sm="12" md="5">
+          <v-text-field
+        color="primary"
+        label="Street/Purok No."
+        hide-details="auto"
+      ></v-text-field>
+        </v-col>
+        <v-col cols="12" sm="12" md="5">
+          <v-text-field
+        color="primary"
+        label="Subdivision/Sitio/Neighborhood"
+        hide-details="auto"
+      ></v-text-field>
+        </v-col>
+
+        <v-col cols="12" sm="12" md="3">
+          <v-text-field
+        color="primary"
+        label="Barangay"
+        hide-details="auto"
+      ></v-text-field>
+        </v-col>
+        <v-col cols="12" sm="12" md="3">
+          <v-text-field
+        color="primary"
+        label="City/Municipality"
+        hide-details="auto"
+      ></v-text-field>
+        </v-col>
+        <v-col cols="12" sm="12" md="3">
+          <v-text-field
+        color="primary"
+        label="Province"
+        hide-details="auto"
+      ></v-text-field>
+        </v-col>
+        <v-col cols="12" sm="12" md="3">
+          <v-text-field
+        color="primary"
+        label="District"
         hide-details="auto"
       ></v-text-field>
         </v-col>
@@ -468,13 +591,13 @@
           
           </v-col>
         </v-row>
-        <v-col cols="12" sm="12" md="12">
+        <!-- <v-col cols="12" sm="12" md="12">
           <v-text-field
         color="primary"
         label="Email"
         hide-details="auto"
       ></v-text-field>
-        </v-col>
+        </v-col> -->
         <v-col cols="12" sm="12" md="12">
           <v-textarea
       label="What motivates you to join"
@@ -486,7 +609,7 @@
     
       </v-col>
         <v-col cols="12" sm="12" md="12">
-          <v-btn color="#DC2626" size="x-large" block>Join Citizens Voice</v-btn>
+          <v-btn color="#DC2626" size="x-large" block>Join Reforma Pilipinas</v-btn>
         </v-col>
         </v-row>
         
@@ -496,7 +619,7 @@
   <v-container class="text-white" fluid style="background-color:#111827;">
     <v-row style="margin-top:50px;">
       <v-col cols="12" sm="12" md="6">
-        <v-col cols=12 sm="12" md="12" style="margin:0px; padding:0px;"><h3 class="pa-2">Citizens Voice</h3></v-col>
+        <v-col cols=12 sm="12" md="12" style="margin:0px; padding:0px;"><h3 class="pa-2">Reforma Pilipinas</h3></v-col>
         <v-col cols=12 sm="12" md="12" style="margin:0px; padding:0px;"><p class="pa-2">Empowering everyday citizens to create meaningful change in their communities through organized advocacy and grassroots action.</p></v-col>
         
         <v-col style="margin:0px; padding:0px;" cols=12 sm="12" md="12">
@@ -559,7 +682,7 @@
     
     <hr style="margin-top:3em;">
     <v-row class="py-5">
-      <v-col>© 2024 Citizens Voice. All rights reserved.</v-col>
+      <v-col>© 2024 Reforma Pilipinas. All rights reserved.</v-col>
       <v-col></v-col>
     </v-row>
   </v-container>
