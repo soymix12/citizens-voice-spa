@@ -318,7 +318,6 @@
   <v-container fluid>
     <div class="pa-3 text-center d-flex flex-column justify-center align-center">
     <h1>Join the Movement</h1>
-
       <v-col style="text-align: center;" justify="center" align="center" class="text-center" cols="12" sm=12 md="6"><h3>Ready to turn your frustration into action? Become a member of Reforma Pilipinas and help create the change your community needs.</h3></v-col>
     </div>
     <v-row>
