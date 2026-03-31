@@ -70,7 +70,51 @@
         <v-container class="text-center">
           <div class="d-flex flex-column ma-8 justify-center align-center">
             <div><h1>Our Mission</h1></div>
-            <v-col cols="12" sm="12" md="8" lg="8" xl="8"><p style="width:100%;">To amplify the voices of everyday citizens and hold our leaders accountable for their promises, creating real change through grassroots advocacy.</p></v-col>
+            <v-col cols="12" sm="12" md="8" lg="8" xl="8">
+              <p style="width:100%;">
+                At Reforma Pilipinas, our mission is to ignite a transformative revolution rooted in radical transparency, people-
+                powered governance, and bold innovation. We strive to dismantle the entrenched systems that perpetuate
+                corruption and inequality, empowering every Filipino to reclaim their agency and redefine the political landscape.
+                Through active participation, we are committed to fostering an inclusive democracy where every voice is heard and
+                valued. Our mission is to cultivate a society that champions integrity, accountability, and social justice, ensuring that
+                the aspirations of our diverse populace are reflected in every decision made within the halls of power.
+              </p>
+            </v-col>
+          </div>
+
+          <div class="d-flex flex-column ma-8 justify-center align-center">
+            <div><h1>Our Vision</h1></div>
+            <v-col cols="12" sm="12" md="8" lg="8" xl="8">
+              <p style="width:100%;">
+                We envision a future Philippines where governance is not a privilege reserved for the elite, but a collective pursuit
+                of justice and empowerment for all citizens. In this equitable society, transparency is the norm, fostering a culture of
+                trust between the government and its people. Citizen assemblies and grassroots movements will flourish, creating
+                a powerful network where ordinary Filipinos are actively shaping policies, championing their rights, and leading
+                initiatives that propel our nation forward. We aspire to be a beacon of bold innovation, embracing unconventional
+                solutions that address our unique challenges and position our nation as a global leader in democracy and
+                progressive governance. We see a Philippines that thrives on collaboration, where cultural diversity serves as a
+                unifying strength, and where the potential of each individual is fully realized in a society committed to the common
+                good. Together, we will forge a path to a brighter, just, and thriving future for generations to come.
+              </p>
+            </v-col>
+          </div>
+
+          <div class="d-flex flex-column ma-8 justify-center align-center">
+            <div><h1>Our Manifesto</h1></div>
+            <v-col cols="12" sm="12" md="8" lg="8" xl="8">
+              <p style="width:100%;">
+                In a time when our nation stands at the precipice of disillusionment, enveloped by a relentless tide of political
+                chaos, we, the founders and passionate members of Reforma Pilipinas, boldly declare our existence as a
+                catalyst for unparalleled change. The current political environment is not merely a challenge; it is a battleground
+                where the integrity of our democracy is threatened, and we, patriots with an indomitable spirit, refuse to stand
+                idly by.
+                Our Call to Action: We represent the voice of the countless Filipinos who are fed up with rhetoric and empty
+                promises. We have seen the erosion of trust, the decay of institutions, and the rampant spread of corruption that
+                suffocates our potential as a nation. This is our moment to disrupt the status quo, to dismantle complacency,
+                and to ignite a movement that embraces integrity, justice, and genuine empowerment.
+                As Major Disruptors, We Stand on the Following Pillars:
+              </p>
+            </v-col>
           </div>
           
           <div>
@@ -84,9 +128,18 @@
                   style="text-align: left;"
                   >
                   <v-list-item
-                    subtitle="We ensure that every citizen's concerns are heard and addressed, breaking through the noise of political spin and empty rhetoric."
-                    title="Amplify Citizen Voices"
+                    class="wrap-text"
+                    
+                    title="Radical Transparency"
                     >
+                    <v-list-item-subtitle class="wrap-text">
+                      We demand a political revolution that
+                      casts light on the darkness of secrets and deceit. Every transaction,
+                      every decision made in the halls of power must be transparent and
+                      available to the public. We will unleash an army of watchdogs and
+                      champions of transparency, harnessing technology and grassroots
+                      coalitions to ensure accountability at every level.
+                    </v-list-item-subtitle>
                     <template v-slot:prepend="{ isSelected, select }">
                       <v-list-item-action start>
                         <v-btn
@@ -99,9 +152,14 @@
                     </template>
                   </v-list-item>
                   <v-list-item
-                    subtitle="We track promises made by political leaders and hold them accountable for their commitments to the communities they serve."
-                    title="Demand Accountability"
+                    title="People-Powered Governance"
                     >
+                    <v-list-item-subtitle class="wrap-text">
+                      Enough with the elitist politics that have long dictated our fate. 
+                      We envision a new era where the voices of the marginalized, the youth, and the ordinary citizens 
+                      are amplified and woven into the fabric of governance. We shall forge a robust network of citizen assemblies, 
+                      summoning every Filipino to rise, engage, and reclaim their right to influence the destiny of our nation.
+                    </v-list-item-subtitle>
                     <template v-slot:prepend="{ isSelected, select }">
                       <v-list-item-action start>
                         <v-btn
@@ -114,9 +172,85 @@
                     </template>
                   </v-list-item>
                   <v-list-item
-                    subtitle="Through organized advocacy and community mobilization, we create tangible policy changes that improve lives across our nation."
-                    title="Drive Real Change"
+                    title="Economic Prosperity and Equitable Distribution of Wealth"
                     >
+                    <v-list-item-subtitle class="wrap-text">
+                      Uphold economic prosperity as meaningful only when its benefits are shared by all Filipinos. 
+                      Growth must create jobs, expand opportunities, and reduce inequality—not concentrate wealth among a few. 
+                      RP promotes inclusive development through support for local industries, rural and urban economic balance, fair taxation, and people-centered economic policies so that national progress improves the lives of every Filipino.
+                    </v-list-item-subtitle>
+                    <template v-slot:prepend="{ isSelected, select }">
+                      <v-list-item-action start>
+                        <v-btn
+                          elevation="0"
+                          class="ma-2"
+                          color="#FF5349"
+                          icon="mdi-wrench"
+                        ></v-btn>
+                      </v-list-item-action>
+                    </template>
+                  </v-list-item>
+                  <v-list-item
+                    title="Unity Through Diversity"
+                    >
+                    <v-list-item-subtitle class="wrap-text">
+                      We acknowledge that our strength lies in our differences. We are a tapestry of cultures, beliefs, and experiences. In this spirit, we will cultivate a coalition that transcends age, gender, and socioeconomic status. 
+                      United in our diversity, we shall present a formidable front against the forces that seek to divide us for their gain.
+                    </v-list-item-subtitle>
+                    <template v-slot:prepend="{ isSelected, select }">
+                      <v-list-item-action start>
+                        <v-btn
+                          elevation="0"
+                          class="ma-2"
+                          color="#FF5349"
+                          icon="mdi-wrench"
+                        ></v-btn>
+                      </v-list-item-action>
+                    </template>
+                  </v-list-item>
+                    <v-list-item
+                    title="Restoration of Faith and Integrity"
+                    >
+                    <v-list-item-subtitle class="wrap-text">
+                    Disillusionment has eroded the very fabric of our society. We are here to restore faith—not just in our leaders but in the essence of democracy itself. We will instate rigorous ethical standards, champion genuine leaders, and create a political environment where integrity is non-negotiable. No longer shall corruption tarnish our future. 
+                    </v-list-item-subtitle>
+                    <template v-slot:prepend="{ isSelected, select }">
+                      <v-list-item-action start>
+                        <v-btn
+                          elevation="0"
+                          class="ma-2"
+                          color="#FF5349"
+                          icon="mdi-wrench"
+                        ></v-btn>
+                      </v-list-item-action>
+                    </template>
+                  </v-list-item>
+
+                  <v-list-item
+                    title="Mobilizing the Silent Majority"
+                    >
+                    <v-list-item-subtitle class="wrap-text">
+                    The time has come to awaken a sleeping giant—the vast majority of Filipinos who remain on the sidelines. We will implement large-scale campaigns that inform, inspire, and incite action. Every town, city, and barangay will be a hub of activism, driving a collective consciousness that will challenge the entrenched powers and demand change.
+
+                    </v-list-item-subtitle>
+                    <template v-slot:prepend="{ isSelected, select }">
+                      <v-list-item-action start>
+                        <v-btn
+                          elevation="0"
+                          class="ma-2"
+                          color="#FF5349"
+                          icon="mdi-wrench"
+                        ></v-btn>
+                      </v-list-item-action>
+                    </template>
+                  </v-list-item>
+
+                  <v-list-item
+                    title="Volunteerism and Bayanihan Spirit"
+                    >
+                    <v-list-item-subtitle class="wrap-text">
+                    We recognize volunteerism and the Filipino bayanihan spirit as vital drivers of national transformation. True reform depends on citizens who willingly share their time, skills, and resources for the common good. This pillar promotes collective action, shared responsibility, and unity beyond political or social differences, empowering Filipinos to actively participate in nation-building as partners in creating lasting and meaningful change.
+                    </v-list-item-subtitle>
                     <template v-slot:prepend="{ isSelected, select }">
                       <v-list-item-action start>
                         <v-btn
@@ -147,177 +281,40 @@
               >
                 <v-row style="height: 100%;" align="center" justify="center" no-gutters>
                   <v-col align="center" class="pa-3" justify="center" cols="12" sm="4" md="4">
-                    <v-img rounded="circle" style="max-width:180px;" src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20Asian%20American%20woman%20in%20her%2030s%2C%20small%20business%20owner%2C%20confident%20smile%2C%20professional%20but%20approachable%2C%20natural%20lighting%2C%20authentic%20entrepreneur%20and%20community%20leader%2C%20simple%20background&width=400&height=400&seq=testimonial3&orientation=squarish"></v-img>
+                    <v-img rounded="circle" style="max-width:180px;" src="/icon.png"></v-img>
                   </v-col>
                   <v-col cols="12" sm="12" md="8" align="left">
                     <div style="font-size: 20px;">
                     <p><v-icon style="color:#FF5349">mdi-format-quote-open</v-icon></p>
                     <br>
-                    <p>Empty promises about supporting small businesses were all we heard. Reforma Pilipinas helped us organize local business owners to demand real policy changes. We now have the support and resources we need to thrive.</p>
+                    <p>Why are black and a spark of orange the colors of Reforma Pilipinas?</p>
                     <br>
-                    <p><b>Sarah Chen</b></p>
-                    <p>Small Business Owner</p>
-                    <p style="color:#FF5349">Portland, OR</p>
+                    <p><b>Black as Our Foundation</b></p>
+                    <p>- Resolve and Strength – Black embodies the unyielding will of Reforma Pilipinas. It speaks to our determination to confront entrenched interests, to stand firm against corruption, and to refuse appeasement when our democratic ideals are under threat. </p>
+                    <p>- Solidarity and Unity – In many cultures, black is the color of collective resolve. By adopting black as our core hue, we signal that every member—regardless of background—stands together, shoulder to shoulder, in pursuit of genuine reform.</p>
+                    <p>- Cleansing Shadows of the Past – Black also carries the weight of history’s darker chapters. It reminds us of the corruption, inertia, and disillusionment we seek to leave behind. Embracing black honors the struggles that came before and galvanizes us to ensure those mistakes are never repeated.</p>
+                    <br>
+
+                    <p><b>Orange as Our Spark</b></p>
+                    <p>- Vision and Optimism – A flash of orange cuts through the darkness: it’s the dawn of new ideas, the warmth of fresh hope, and the promise that change is not only possible but within our grasp.</p>
+                    <p>- Energy and Action – Orange is synonymous with movement and momentum. It’s the surge of creativity, the pulse of innovation, and the call to every Filipino to rise, speak up, and get involved.</p>
+                    <p>- Inclusivity and Accessibility – Whereas black can be austere, orange feels approachable and human. It invites dialogue, bridges generations, and reminds us that reform is a collective, life-affirming endeavor.</p>
+
+                    <br>
+
+                    <p><b>The Combined Impact</b></p>
+                    <p>By pairing black with a hint of orange, Reforma Pilipinas crafts a visual identity that is at once stern and hopeful. Black provides the bedrock of our convictions—unyielding, principled, and mindful of history’s lessons—while orange sparks the forward thrust of our mission: energizing citizens, illuminating pathways to progress, and celebrating the creative spirit that will define our nation’s next chapter. Together, these colors tell a story of steadfast resolve powered by bright possibility—a perfect emblem for a movement determined to forge a new path.</p>
+                  
                     </div>
                   </v-col>
                 </v-row>
               </v-carousel-item>
 
-              <v-carousel-item
-                >
-                <v-row style="height: 100%;"  align="center" justify="center" no-gutters>
-                <v-col align="center" justify="center" cols="12" sm="4" md="4">
-                  <v-img rounded="circle" style="max-width: 180px;" class="ma-3" src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20African%20American%20man%20in%20his%2050s%2C%20factory%20worker%20and%20military%20veteran%2C%20determined%20expression%2C%20wearing%20casual%20shirt%2C%20natural%20lighting%2C%20authentic%20grassroots%20activist%2C%20simple%20background&width=400&height=400&seq=testimonial2&orientation=squarish"></v-img>
-                </v-col>
-                <v-col cols="12" sm="8" md="8"align="left" justify="left">
-                  
-                  <div style="font-size: 20px;">
-                  <p><v-icon style="color:#FF5349">mdi-format-quote-open</v-icon></p>
-                  <br>
-                  <p>I served this country, but when I came home, our leaders forgot about veterans like me. Reforma Pilipinas gave me a platform to fight for veteran healthcare reform. Now my fellow veterans are getting the care they earned.
-                  </p>
-                  <br>
-                  <p><b>James Thompson</b></p>
-                  <p>Factory Worker & Veteran</p>
-                  <p style="color:#FF5349">Detroit, MI</p>
-                  </div>
-                </v-col>
-                </v-row>
-              </v-carousel-item>
             </v-carousel>
           </div>
         </v-container>
   
-        <v-container fluid style="background-color: #111827; width: 100%;">
-          <div class="pa-3 text-center text-white">
-            <h1>Proven Impact Across America</h1>
-            <br>
-            <h3>When citizens unite behind a common cause, we achieve real results. Here's how we've turned frustration into meaningful policy changes.</h3>
-            <v-row style="margin-top:30px;">
-              <v-col cols="12" md="4">
-            <v-card
-              link
-              class="mx-auto zoom"
-            >
-              <v-card-title> <v-btn
-                        elevation="0"
-                        class="my-3"
-                        color="#FF5349"
-                        icon="mdi-wrench"
-                      ></v-btn></v-card-title>
-              <v-card-subtitle><h2>Healthcare Reform</h2></v-card-subtitle>
-              <v-card-text>
-                <p>Secured $2.3M in additional funding for rural healthcare clinics</p>
-                <p style="margin-top: 15px;"><v-icon>mdi-map-marker-outline</v-icon>Michigan & Ohio</p>
-              </v-card-text>
-            </v-card>
-          </v-col>
-          <v-col cols="12" md="4">
-            <v-card
-              link
-              class="mx-auto zoom"
-            >
-              <v-card-title> <v-btn
-                        elevation="0"
-                        class="my-3"
-                        color="#FF5349"
-                        icon="mdi-wrench"
-                      ></v-btn></v-card-title>
-              <v-card-subtitle><h2>Healthcare Reform</h2></v-card-subtitle>
-              <v-card-text>
-                <p>Secured $2.3M in additional funding for rural healthcare clinics</p>
-                <p style="margin-top: 15px;"><v-icon>mdi-map-marker-outline</v-icon>Michigan & Ohio</p>
-              </v-card-text>
-            </v-card>
-          </v-col>
-          <v-col cols="12" md="4">
-            <v-card
-              link
-              class="mx-auto zoom"
-            >
-              <v-card-title> <v-btn
-                        elevation="0"
-                        class="my-3"
-                        color="#FF5349"
-                        icon="mdi-wrench"
-                      ></v-btn></v-card-title>
-              <v-card-subtitle><h2>Healthcare Reform</h2></v-card-subtitle>
-              <v-card-text>
-                <p>Secured $2.3M in additional funding for rural healthcare clinics</p>
-                <p style="margin-top: 15px;"><v-icon>mdi-map-marker-outline</v-icon>Michigan & Ohio</p>
-              </v-card-text>
-            </v-card>
-          </v-col>
-            </v-row>
-            <v-row style="margin-top:20px;">
-              <v-col cols="12" md="4">
-            <v-card
-              link
-              class="mx-auto zoom"
-            >
-              <v-card-title> <v-btn
-                        elevation="0"
-                        class="my-3"
-                        color="#FF5349"
-                        icon="mdi-wrench"
-                      ></v-btn></v-card-title>
-              <v-card-subtitle><h2>Healthcare Reform</h2></v-card-subtitle>
-              <v-card-text>
-                <p>Secured $2.3M in additional funding for rural healthcare clinics</p>
-                <p style="margin-top: 15px;"><v-icon>mdi-map-marker-outline</v-icon>Michigan & Ohio</p>
-              </v-card-text>
-            </v-card>
-          </v-col>
-          <v-col cols="12" md="4">
-            <v-card
-              link
-              class="mx-auto zoom"
-            >
-              <v-card-title> <v-btn
-                        elevation="0"
-                        class="my-3"
-                        color="#FF5349"
-                        icon="mdi-wrench"
-                      ></v-btn></v-card-title>
-              <v-card-subtitle><h2>Healthcare Reform</h2></v-card-subtitle>
-              <v-card-text>
-                <p>Secured $2.3M in additional funding for rural healthcare clinics</p>
-                <p style="margin-top: 15px;"><v-icon>mdi-map-marker-outline</v-icon>Michigan & Ohio</p>
-              </v-card-text>
-            </v-card>
-          </v-col>
-          <v-col cols="12" md="4">
-            <v-card
-              link
-              class="mx-auto zoom"
-            >
-              <v-card-title> <v-btn
-                        elevation="0"
-                        class="my-3"
-                        color="#FF5349"
-                        icon="mdi-wrench"
-                      ></v-btn></v-card-title>
-              <v-card-subtitle><h2>Healthcare Reform</h2></v-card-subtitle>
-              <v-card-text>
-                <p>Secured $2.3M in additional funding for rural healthcare clinics</p>
-                <p style="margin-top: 15px;"><v-icon>mdi-map-marker-outline</v-icon>Michigan & Ohio</p>
-              </v-card-text>
-            </v-card>
-          </v-col>
-          <v-col cols="12" sm="12" md="12">
-            <div style="width: 100%; border-radius: 5px; background-color: #FF5349;">
-              <div class="pa-8">
-                <h1>Ready to Create Change in Your Community?</h1>
-                <h3>Join thousands of citizens who refuse to accept the status quo</h3>
-                <v-btn class="mt-4" elevation="0" rounded="xl"  style="color:#FF5349">Start Your Campaign</v-btn>
-              </div>
-        
-            </div>
-          </v-col>
-            </v-row>
-
-          </div>
-        </v-container>
+       
   <v-container fluid>
     <div class="pa-3 text-center d-flex flex-column justify-center align-center">
     <h1>Join the Movement</h1>
@@ -763,6 +760,10 @@
 
 </script>
 <style>
+  .wrap-text {
+    -webkit-line-clamp: unset !important;
+    white-space: normal;
+  }
   .v-toolbar__prepend{
     margin: 0px !important;
 
