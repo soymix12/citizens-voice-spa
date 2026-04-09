@@ -11,10 +11,10 @@
         </template>
  
         <v-app-bar-title v-if="!this.$vuetify.display.mobile" class="d-flex justify-center flex-row">
-          <v-btn>Our Mission</v-btn>
-          <v-btn>Stories</v-btn>
+          <v-btn @click="scrollTo('mission')">Our Mission</v-btn>
+          <v-btn @click="scrollTo('stories')">Stories</v-btn>
           <v-btn>Impact</v-btn>
-          <v-btn>Get Involved</v-btn>
+          <v-btn @click="scrollTo('join')">Get Involved</v-btn>
         </v-app-bar-title>
 
         <template v-slot:append>
@@ -66,8 +66,8 @@
             </v-row>      
           </div>
         </v-parallax>
-        
-        <div class="text-center ma-7">
+   
+        <div id="mission" class="text-center ma-7">
             <div><h4>OUR MISSION</h4></div>
           <div class="d-flex flex-column ma-6 justify-center align-center">
          
@@ -343,7 +343,7 @@
                       ></v-btn></v-card-title>
               <v-card-subtitle><h2>People-Powered Governance</h2></v-card-subtitle>
               <v-card-text>
-                <p>Enough with the elitist politics that have long dictated our fate. We envision a new era where the voices of the marginalized, the youth, and the ordinary citizens are amplified and woven into the fabric of governance. We shall forge a robust network of citizen assemblies, summoning every Filipino to rise, engage, and reclaim their right to influence the destiny of our nation.</p>
+                <p style="  line-height: 1.5; color: gray;">Enough with the elitist politics that have long dictated our fate. We envision a new era where the voices of the marginalized, the youth, and the ordinary citizens are amplified and woven into the fabric of governance. We shall forge a robust network of citizen assemblies, summoning every Filipino to rise, engage, and reclaim their right to influence the destiny of our nation.</p>
               </v-card-text>
             </v-card>
           </v-col>
@@ -361,64 +361,64 @@
                       ></v-btn></v-card-title>
               <v-card-subtitle class="wrap-text"><h2>Economic Prosperity and Equitable Distribution of Wealth</h2></v-card-subtitle>
               <v-card-text>
-                <p>Uphold economic prosperity as meaningful only when its benefits are shared by all Filipinos. Growth must create jobs, expand opportunities, and reduce inequality—not concentrate wealth among a few. RP promotes inclusive development through support for local industries, rural and urban economic balance, fair taxation, and people-centered economic policies so that national progress improves the lives of every Filipino.</p>
+                <p style="  line-height: 1.5; color: gray;">Uphold economic prosperity as meaningful only when its benefits are shared by all Filipinos. Growth must create jobs, expand opportunities, and reduce inequality—not concentrate wealth among a few. RP promotes inclusive development through support for local industries, rural and urban economic balance, fair taxation, and people-centered economic policies so that national progress improves the lives of every Filipino.</p>
 
               </v-card-text>
             </v-card>
           </v-col>
             </v-row>
-            <v-row style="margin-top:20px;">
+            <v-row style="margin-top:20px;" class="ma-5">
               <v-col cols="12" md="4">
             <v-card
               link
-              class="mx-auto zoom"
+              class="pa-2 zoom"
             >
               <v-card-title> <v-btn
+                        style="border-radius:10px; color:#FF5349;"
                         elevation="0"
                         class="my-3"
-                        color="#FF5349"
+                        color="#FFE9CC"
                         icon="mdi-heart-outline"
                       ></v-btn></v-card-title>
-              <v-card-subtitle><h2>Healthcare Reform</h2></v-card-subtitle>
+              <v-card-subtitle><h2>Unity Through Diversity</h2></v-card-subtitle>
               <v-card-text>
-                <p>Secured $2.3M in additional funding for rural healthcare clinics</p>
-                <p style="margin-top: 15px;"><v-icon>mdi-map-marker-outline</v-icon>Michigan & Ohio</p>
+                <p style="  line-height: 1.5; color: gray;">We acknowledge that our strength lies in our differences. We are a tapestry of cultures, beliefs, and experiences. In this spirit, we will cultivate a coalition that transcends age, gender, and socioeconomic status. United in our diversity, we shall present a formidable front against the forces that seek to divide us for their gain.</p>
               </v-card-text>
             </v-card>
           </v-col>
           <v-col cols="12" md="4">
             <v-card
               link
-              class="mx-auto zoom"
+              class="pa-2 zoom"
             >
               <v-card-title> <v-btn
+                        style="border-radius:10px; color:#FF5349;"
                         elevation="0"
                         class="my-3"
-                        color="#FF5349"
+                        color="#FFE9CC"
                         icon="mdi-shield-check-outline"
                       ></v-btn></v-card-title>
-              <v-card-subtitle><h2>Healthcare Reform</h2></v-card-subtitle>
+              <v-card-subtitle><h2>Restoration of Faith and Integrity</h2></v-card-subtitle>
               <v-card-text>
-                <p>Secured $2.3M in additional funding for rural healthcare clinics</p>
-                <p style="margin-top: 15px;"><v-icon>mdi-map-marker-outline</v-icon>Michigan & Ohio</p>
+                <p  style="  line-height: 1.5; color: gray;">Disillusionment has eroded the very fabric of our society. We are here to restore faith—not just in our leaders but in the essence of democracy itself. We will instate rigorous ethical standards, champion genuine leaders, and create a political environment where integrity is non-negotiable. No longer shall corruption tarnish our future.</p>
               </v-card-text>
             </v-card>
           </v-col>
           <v-col cols="12" md="4">
             <v-card
               link
-              class="mx-auto zoom"
+              class="pa-2 zoom"
             >
               <v-card-title> <v-btn
+                        style="border-radius:10px; color:#FF5349;"
                         elevation="0"
                         class="my-3"
-                        color="#FF5349"
+                        color="#FFE9CC"
                         icon="mdi-bullhorn-outline"
                       ></v-btn></v-card-title>
-              <v-card-subtitle><h2>Healthcare Reform</h2></v-card-subtitle>
+              <v-card-subtitle><h2>Mobilizing the Silent Majority</h2></v-card-subtitle>
               <v-card-text>
-                <p>Secured $2.3M in additional funding for rural healthcare clinics</p>
-                <p style="margin-top: 15px;"><v-icon>mdi-map-marker-outline</v-icon>Michigan & Ohio</p>
+                <p style="  line-height: 1.5; color: gray;">The time has come to awaken a sleeping giant—the vast majority of Filipinos who remain on the sidelines. We will implement large-scale campaigns that inform, inspire, and incite action. Every town, city, and barangay will be a hub of activism, driving a collective consciousness that will challenge the entrenched powers and demand change.</p>
               </v-card-text>
             </v-card>
           </v-col>
@@ -427,7 +427,8 @@
 
           </div>
         </div>
-        <div class="gradient d-flex flex-column justify-center align-center" >
+  
+        <div id="stories" class="gradient d-flex flex-column justify-center align-center" >
           <v-row>
             <v-col class="mt-3"  cols="12" sm="12" md="8" lg="8" xl="8">
            
@@ -485,6 +486,15 @@
             </v-col>
           </v-row>
         </div>
+
+          <div class="ma-3">
+            <v-row>
+                 <v-col cols="12" sm="12" md="12" lg="12" xl="12">
+              <v-img class="ma-3" style="max-height:1000px;" src="/story.jpg"></v-img>
+            </v-col>
+            </v-row>
+         
+        </div>
         <!-- <v-container class="text-center">
           <div class="d-flex flex-column ma-8 justify-center align-center">
             <div><h1>Real Stories, Real Change</h1></div>
@@ -533,7 +543,7 @@
         </v-container> -->
 
   <v-container fluid>
-    <div class="pa-3 text-center d-flex flex-column justify-center align-center">
+    <div id="join" class="pa-3 text-center d-flex flex-column justify-center align-center">
     <h1>Join the Movement</h1>
       <v-col style="text-align: center;" justify="center" align="center" class="text-center" cols="12" sm=12 md="6"><h3>Ready to turn your frustration into action? Become a member of Reforma Pilipinas and help create the change your community needs.</h3></v-col>
     </div>
@@ -905,6 +915,7 @@
 
 
 <script>
+import { ref, nextTick } from 'vue'
   export default {
     data () {
       return {
@@ -934,6 +945,14 @@
     this.setCircle(true)
   },
   methods: {
+    nextTick,
+   scrollTo(id) {
+      const yOffset = -100; 
+      const element = document.getElementById(id);
+      const y = element.getBoundingClientRect().top + window.scrollY + yOffset;
+      this.nextTick(() =>  window.scrollTo({top: y, behavior: 'smooth'}))
+     
+   },
     setCircle(show_element) {
       if (show_element) {
         this.path.style.visibility = 'visible'
@@ -1054,4 +1073,5 @@
     border: solid 3px;
     border-color: #FF5349;
 }
+html { scroll-behavior: smooth; }
 </style>
