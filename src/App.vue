@@ -67,26 +67,42 @@
           </div>
         </v-parallax>
         
-        <v-container class="text-center">
-          <div class="d-flex flex-column ma-8 justify-center align-center">
-            <div><h1>Our Mission</h1></div>
-            <v-col cols="12" sm="12" md="8" lg="8" xl="8">
-              <p style="width:100%;">
-                At Reforma Pilipinas, our mission is to ignite a transformative revolution rooted in radical transparency, people-
-                powered governance, and bold innovation. We strive to dismantle the entrenched systems that perpetuate
-                corruption and inequality, empowering every Filipino to reclaim their agency and redefine the political landscape.
-                Through active participation, we are committed to fostering an inclusive democracy where every voice is heard and
-                valued. Our mission is to cultivate a society that champions integrity, accountability, and social justice, ensuring that
-                the aspirations of our diverse populace are reflected in every decision made within the halls of power.
-              </p>
-            </v-col>
+        <div class="text-center ma-7">
+            <div><h4>OUR MISSION</h4></div>
+          <div class="d-flex flex-column ma-6 justify-center align-center">
+         
+            <v-row>
+              <v-col style="width:100%;" cols="12" sm="6" md="4" lg="4" xl="8">
+                <p style="width:350px; text-align: left; font-family: goulong; font-size: 35px; font-style: italic; font-weight: bold; color:#FF5349">"To cultivate a society that champions integrity, accountability, and social justice"</p>
+              </v-col>
+              <v-col style="width:100%;" cols="12" sm="6" md="8" lg="8" xl="8">
+                <span style="line-height: 1.5; font-size: 24px; width:350px;">
+                  <p style="text-align: left; font-family: gravity; color: #6E7A7A;" >At Reforma Pilipinas, our mission is to ignite a transformative revolution rooted in <span style="text-decoration: underline #FF5349;"><b>radical transparency</b></span>, people-
+                  powered governance, and bold innovation. We strive to dismantle the entrenched systems that perpetuate
+                  corruption and inequality, empowering every Filipino to reclaim their agency and redefine the political landscape.
+                  Through active participation, we are committed to fostering an inclusive democracy where every voice is heard and
+                  valued. Our mission is to cultivate a society that champions integrity, accountability, and social justice, ensuring that
+                  the aspirations of our diverse populace are reflected in every decision made within the halls of power.</p>
+                </span>
+              </v-col>
+            </v-row>
+  
           </div>
-
+            
+              <div><h4>OUR VISION</h4></div>
           <div class="d-flex flex-column ma-8 justify-center align-center">
-            <div><h1>Our Vision</h1></div>
-            <v-col cols="12" sm="12" md="8" lg="8" xl="8">
-              <p style="width:100%;">
-                We envision a future Philippines where governance is not a privilege reserved for the elite, but a collective pursuit
+        
+
+            
+            <v-row>
+              <v-col style="width:100%;" cols="12" sm="6" md="4" lg="4" xl="8">
+                <p style="width:350px; text-align: left; font-family: goulong; font-size: 35px; font-style: italic; font-weight: bold; color:#FF5349">"We see a Philippines that thrives on collaboration, where cultural diversity serves as a
+                unifying strength, and where the potential of each individual is fully realized in a society committed to the common
+                good."</p>
+              </v-col>
+              <v-col style="width:100%;" cols="12" sm="6" md="8" lg="8" xl="8">
+                <span style="line-height: 1.5; font-size: 26px; width:350px;">
+                  <p style="text-align: left; font-family: gravity; color: #6E7A7A;" >We envision a future Philippines where governance is not a privilege reserved for the elite, but a collective pursuit
                 of justice and empowerment for all citizens. In this equitable society, transparency is the norm, fostering a culture of
                 trust between the government and its people. Citizen assemblies and grassroots movements will flourish, creating
                 a powerful network where ordinary Filipinos are actively shaping policies, championing their rights, and leading
@@ -94,16 +110,25 @@
                 solutions that address our unique challenges and position our nation as a global leader in democracy and
                 progressive governance. We see a Philippines that thrives on collaboration, where cultural diversity serves as a
                 unifying strength, and where the potential of each individual is fully realized in a society committed to the common
-                good. Together, we will forge a path to a brighter, just, and thriving future for generations to come.
-              </p>
-            </v-col>
+                good. Together, we will forge a path to a brighter, just, and thriving future for generations to come.</p>
+                </span>
+              </v-col>
+            </v-row>
+
           </div>
 
+            <div><h4>OUR MANIFESTO</h4></div>
           <div class="d-flex flex-column ma-8 justify-center align-center">
-            <div><h1>Our Manifesto</h1></div>
-            <v-col cols="12" sm="12" md="8" lg="8" xl="8">
-              <p style="width:100%;">
-                In a time when our nation stands at the precipice of disillusionment, enveloped by a relentless tide of political
+          
+
+            <v-row>
+              <v-col style="width:100%;" cols="12" sm="6" md="4" lg="4" xl="8">
+                <p style="width:350px; text-align: left; font-family: goulong; font-size: 35px; font-style: italic; font-weight: bold; color:#FF5349">"We represent the voice of the countless Filipinos who are fed up with rhetoric and empty
+                promises."</p>
+              </v-col>
+              <v-col style="width:100%;" cols="12" sm="6" md="8" lg="8" xl="8">
+                <span style="line-height: 1.5; font-size: 26px; width:350px;">
+                  <p style="text-align: left; font-family: gravity; color: #6E7A7A;" >In a time when our nation stands at the precipice of disillusionment, enveloped by a relentless tide of political
                 chaos, we, the founders and passionate members of Reforma Pilipinas, boldly declare our existence as a
                 catalyst for unparalleled change. The current political environment is not merely a challenge; it is a battleground
                 where the integrity of our democracy is threatened, and we, patriots with an indomitable spirit, refuse to stand
@@ -112,12 +137,18 @@
                 promises. We have seen the erosion of trust, the decay of institutions, and the rampant spread of corruption that
                 suffocates our potential as a nation. This is our moment to disrupt the status quo, to dismantle complacency,
                 and to ignite a movement that embraces integrity, justice, and genuine empowerment.
-                As Major Disruptors, We Stand on the Following Pillars:
-              </p>
-            </v-col>
+                As Major Disruptors, We Stand on the Following Pillars:</p>
+                </span>
+              </v-col>
+            </v-row>
+
+
+
+
+    
           </div>
-          
-          <div>
+     
+          <!-- <div>
             <v-row>
               <v-col cols="12" sm="12" md="6">
                 <v-img src="https://readdy.ai/api/search-image?query=Group%20of%20diverse%20citizens%20in%20town%20hall%20meeting%2C%20engaged%20discussion%2C%20people%20raising%20hands%2C%20community%20gathering%2C%20authentic%20grassroots%20democracy%20in%20action%2C%20natural%20lighting%2C%20documentary%20photography%20style%2C%20real%20people%20having%20meaningful%20conversations%20about%20policy&width=800&height=600&seq=mission1&orientation=landscape"></v-img>
@@ -265,9 +296,194 @@
                 </v-list>
               </v-col>
             </v-row>
+          </div> -->
+        </div>
+   <div style="width: 100% !important; background-color: #FAFAFA;">
+          <div class="pa-3 text-center text-white">
+           
+           
+            <v-row class="ma-5">
+              <v-col cols="12" md="4">
+            <v-card
+              link
+              class="pa-5 zoom"
+            >
+              <v-card-title> 
+                <v-btn
+                  style="border-radius:10px; color:#FF5349;"
+                  elevation="0"
+                  class="my-3"
+                  color="#FFE9CC"
+                  icon="mdi-eye-outline"
+                >
+                </v-btn>
+                  </v-card-title>
+              <v-card-subtitle><h2>Radical Transparency</h2></v-card-subtitle>
+              <v-card-text>
+                <p style="  line-height: 1.5; color: gray;"> We demand a political revolution that
+                      casts light on the darkness of secrets and deceit. Every transaction,
+                      every decision made in the halls of power must be transparent and
+                      available to the public. We will unleash an army of watchdogs and
+                      champions of transparency, harnessing technology and grassroots
+                      coalitions to ensure accountability at every level.</p>
+              </v-card-text>
+            </v-card>
+          </v-col>
+          <v-col cols="12" md="4">
+            <v-card
+              link
+              class="pa-5 zoom"
+            >
+              <v-card-title> <v-btn
+                        elevation="0"
+                        class="my-3"
+                        color="#FF5349"
+                        icon="mdi-account-multiple-outline"
+                      ></v-btn></v-card-title>
+              <v-card-subtitle><h2>People-Powered Governance</h2></v-card-subtitle>
+              <v-card-text>
+                <p>Enough with the elitist politics that have long dictated our fate. We envision a new era where the voices of the marginalized, the youth, and the ordinary citizens are amplified and woven into the fabric of governance. We shall forge a robust network of citizen assemblies, summoning every Filipino to rise, engage, and reclaim their right to influence the destiny of our nation.</p>
+              </v-card-text>
+            </v-card>
+          </v-col>
+          <v-col cols="12" md="4">
+            <v-card
+              link
+              class="pa-2 zoom"
+            >
+              <v-card-title> <v-btn
+                        elevation="0"
+                        class="my-3"
+                        color="#FF5349"
+                        icon="mdi-finance"
+                      ></v-btn></v-card-title>
+              <v-card-subtitle class="wrap-text"><h2>Economic Prosperity and Equitable Distribution of Wealth</h2></v-card-subtitle>
+              <v-card-text>
+                <p>Uphold economic prosperity as meaningful only when its benefits are shared by all Filipinos. Growth must create jobs, expand opportunities, and reduce inequality—not concentrate wealth among a few. RP promotes inclusive development through support for local industries, rural and urban economic balance, fair taxation, and people-centered economic policies so that national progress improves the lives of every Filipino.</p>
+
+              </v-card-text>
+            </v-card>
+          </v-col>
+            </v-row>
+            <v-row style="margin-top:20px;">
+              <v-col cols="12" md="4">
+            <v-card
+              link
+              class="mx-auto zoom"
+            >
+              <v-card-title> <v-btn
+                        elevation="0"
+                        class="my-3"
+                        color="#FF5349"
+                        icon="mdi-heart-outline"
+                      ></v-btn></v-card-title>
+              <v-card-subtitle><h2>Healthcare Reform</h2></v-card-subtitle>
+              <v-card-text>
+                <p>Secured $2.3M in additional funding for rural healthcare clinics</p>
+                <p style="margin-top: 15px;"><v-icon>mdi-map-marker-outline</v-icon>Michigan & Ohio</p>
+              </v-card-text>
+            </v-card>
+          </v-col>
+          <v-col cols="12" md="4">
+            <v-card
+              link
+              class="mx-auto zoom"
+            >
+              <v-card-title> <v-btn
+                        elevation="0"
+                        class="my-3"
+                        color="#FF5349"
+                        icon="mdi-shield-check-outline"
+                      ></v-btn></v-card-title>
+              <v-card-subtitle><h2>Healthcare Reform</h2></v-card-subtitle>
+              <v-card-text>
+                <p>Secured $2.3M in additional funding for rural healthcare clinics</p>
+                <p style="margin-top: 15px;"><v-icon>mdi-map-marker-outline</v-icon>Michigan & Ohio</p>
+              </v-card-text>
+            </v-card>
+          </v-col>
+          <v-col cols="12" md="4">
+            <v-card
+              link
+              class="mx-auto zoom"
+            >
+              <v-card-title> <v-btn
+                        elevation="0"
+                        class="my-3"
+                        color="#FF5349"
+                        icon="mdi-bullhorn-outline"
+                      ></v-btn></v-card-title>
+              <v-card-subtitle><h2>Healthcare Reform</h2></v-card-subtitle>
+              <v-card-text>
+                <p>Secured $2.3M in additional funding for rural healthcare clinics</p>
+                <p style="margin-top: 15px;"><v-icon>mdi-map-marker-outline</v-icon>Michigan & Ohio</p>
+              </v-card-text>
+            </v-card>
+          </v-col>
+
+            </v-row>
+
           </div>
-        </v-container>
-        <v-container class="text-center">
+        </div>
+        <div class="gradient d-flex flex-column justify-center align-center" >
+          <v-row>
+            <v-col class="mt-3"  cols="12" sm="12" md="8" lg="8" xl="8">
+           
+                <v-list style="background-color: transparent !important;">
+                  <div class="px-4">
+                    <p style="font-size: 35px;  margin-bottom: -0.5em;  margin-top: -0.5em;"><b>The Meaning Behind</b></p>
+                    <p style="font-size: 35px; color: #FF5349; "><b>Our Colors</b></p>
+                  </div>
+              
+                  <v-list-item
+                    >
+                    <v-list-item-title>
+                      <b>Black as Foundation</b>
+                    </v-list-item-title>
+                    <v-list-item-subtitle class="wrap-text pt-1">
+                      Unyielding will, strength, and the cleansing of the shadows of the past. It is our collective resolve.
+                    </v-list-item-subtitle>
+                    <template v-slot:prepend="{ isSelected, select }">
+                      <v-list-item-action start>
+                        <v-btn
+                          elevation="0"
+                          class="ma-2"
+                          color="black"
+                          icon=""
+                        ></v-btn>
+                      </v-list-item-action>
+                    </template>
+                  </v-list-item>
+                
+                  <v-list-item
+                    >
+                    <v-list-item-title>
+                      <b>Orange as Our Spark</b>
+                    </v-list-item-title>
+                    <v-list-item-subtitle class="wrap-text pt-1">
+                      Optimism, energy, and inclusion. It represents the surge of innovation and the pulse of action.
+                    </v-list-item-subtitle>
+                    <template v-slot:prepend="{ isSelected, select }">
+                      <v-list-item-action start>
+                        <v-btn
+                          elevation="0"
+                          class="ma-2"
+                          color="#FF5349"
+                          icon=""
+                        ></v-btn>
+                      </v-list-item-action>
+                    </template>
+                  </v-list-item>
+              </v-list>
+              
+            </v-col>
+            
+            <v-col class="pa-5" cols="12" sm="12" md="4" lg="4" xl="8">
+              <div style="font-size: 25px; font-family: gravity; font-style: italic; color:white; font-weight: bold;" class="circle-multiline">Steadfast<br> Resolve<br> + <br> Bright <br> Possibility</div>
+            </v-col>
+          </v-row>
+        </div>
+        <!-- <v-container class="text-center">
           <div class="d-flex flex-column ma-8 justify-center align-center">
             <div><h1>Real Stories, Real Change</h1></div>
             <v-col cols="12" sm="12" md="6"><p>Hear from citizens who turned their frustration into action and achieved meaningful results in their communities.</p></v-col>
@@ -312,9 +528,8 @@
 
             </v-carousel>
           </div>
-        </v-container>
-  
-       
+        </v-container> -->
+
   <v-container fluid>
     <div class="pa-3 text-center d-flex flex-column justify-center align-center">
     <h1>Join the Movement</h1>
@@ -768,9 +983,12 @@
 
   }
   .v-card{
-    background-color: #1F2937;
-    color: white;
+  
+    border-radius: 20px;
     text-align: left;
+  }
+  .v-card-subtitle{
+    color: black !important;
   }
   .zoom {
 
@@ -805,9 +1023,33 @@
     stroke-linecap: round;
   }
 
+  .gradient {
+    background: #FFF;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(122, 6, 0, 1) 80%);
+  }
+
   @keyframes draw {
     100% {
       stroke-dashoffset: 0;
     }
   }
+
+  @font-face {
+    font-family: gravity;
+    src: url('/gravity-book.ttf');
+  }
+  @font-face {
+    font-family: goulong;
+    src: url('/goulong.ttf');
+  }
+  .circle-multiline {
+    display: table-cell;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    border: solid 3px;
+    border-color: #FF5349;
+}
 </style>
