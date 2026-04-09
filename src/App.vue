@@ -335,9 +335,10 @@
               class="pa-5 zoom"
             >
               <v-card-title> <v-btn
+                        style="border-radius:10px; color:#FF5349;"
                         elevation="0"
                         class="my-3"
-                        color="#FF5349"
+                        color="#FFE9CC"
                         icon="mdi-account-multiple-outline"
                       ></v-btn></v-card-title>
               <v-card-subtitle><h2>People-Powered Governance</h2></v-card-subtitle>
@@ -352,9 +353,10 @@
               class="pa-2 zoom"
             >
               <v-card-title> <v-btn
+                        style="border-radius:10px; color:#FF5349;"
                         elevation="0"
                         class="my-3"
-                        color="#FF5349"
+                        color="#FFE9CC"
                         icon="mdi-finance"
                       ></v-btn></v-card-title>
               <v-card-subtitle class="wrap-text"><h2>Economic Prosperity and Equitable Distribution of Wealth</h2></v-card-subtitle>
