@@ -519,6 +519,7 @@
         color="primary"
         label="District"
         hide-details="auto"
+        
       ></v-text-field>
         </v-col>
         
