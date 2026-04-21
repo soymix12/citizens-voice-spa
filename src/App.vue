@@ -635,12 +635,7 @@
           </div>
           <div>  
                <div class="ma-3">
-            <v-row>
-              <v-col cols="12" sm="12" md="12" lg="4" xl="12"> <h1 style="color: #FF5349;">Editorial</h1></v-col>
-                 <v-col cols="12" sm="12" md="12" lg="6" xl="12">
-              <v-img class="ma-3" style="max-height:1000px;" src="/story.jpg"></v-img>
-            </v-col>
-            </v-row>
+      
          
         </div>
           </div>
@@ -698,6 +693,97 @@
           </div>
         </v-container>
 
+
+                    <v-container class="text-center">
+          <div class="d-flex flex-column ma-8 justify-center align-center">
+            <div><h1>Editorial</h1></div>
+            <v-col cols="12" sm="12" md="6"><p>Hear from citizens who turned their frustration into action and achieved meaningful results in their communities.</p></v-col>
+          </div>
+          <div>  
+               <div class="ma-3">
+      
+         
+        </div>
+          </div>
+        </v-container>
+         <v-container  style="background-color: lightgray" fluid class="text-center">
+       
+          <div>  
+            <v-carousel
+             
+              hide-delimiters
+              height="auto"
+              >
+              <v-carousel-item style="height:100%;"
+              >
+                <v-row style="height: 100%;" align="center" justify="center" no-gutters>
+                  <v-col align="center" class="pa-3" justify="center" cols="12" sm="4" md="4">
+
+              <v-img class="ma-3" style="max-height:1000px;" src="/story.jpg"></v-img>
+                  </v-col>
+                  <v-col cols="12" sm="12" md="8" align="left" class="pa-5">
+                    <div style="font-size: 20px;">
+                    <!-- <p><v-icon style="color:#FF5349">mdi-format-quote-open</v-icon></p> -->
+                    <!-- <br> -->
+                    <h3>REFORMA PILIPINAS – POSITION PAPER</h3>
+                    <h4>On Disunity, Internal Attacks, and Personality-Based Politics</h4>
+                    <p style="font-size: 18px;">
+                      
+
+                      REFORMA PILIPINAS views the rising disunity, internal attacks, and personality-driven narratives within political support groups as a clear sign of systemic weakness—not strength. What is being framed as “cleansing” is, in truth, unstructured infighting driven by ego, insecurity, and self-interest. This is not reform; this is fragmentation.
+
+                      The current situation reflects four core dynamics: ego has overtaken purpose, with political engagement driven more by personal validation and proximity to power than by a shared national agenda; defense mechanisms have replaced accountability, as internal failures are deflected through narratives of enemies and sabotage; jealousy and status competition have emerged in the absence of structure, turning loyalty into a contest for recognition; and personality politics has overshadowed institutional politics, reducing discourse to individual defense rather than governance and reform.
+
+                      REFORMA PILIPINAS firmly asserts that any movement that prioritizes personalities over principles, and loyalty over truth, ultimately weakens itself more than any external opposition. Internal conflict is not cleansing when driven by ego—it is a symptom of decline. Criticism must be treated not as betrayal, but as necessary intelligence for correction and growth.
+
+                      If left unaddressed, these dynamics will erode narrative control, diminish public trust beyond core supporters, alienate persuadable voters, and create long-term strategic disadvantage. REFORMA PILIPINAS therefore rejects blind loyalty, personal attacks, and the normalization of division, and instead upholds issue-based discourse, institutional discipline, and a national agenda over personal ambition.
+
+                      All stakeholders are urged to shift from personality defense to governance, enforce discipline in engagement, reject opportunistic behavior, and realign around shared national goals. The greatest threat to any movement is not its opponents—but its failure to rise above ego and division. Reform demands discipline, clarity, and purpose beyond personality.
+                    </p>
+                    
+                    </div>
+                  </v-col>
+                </v-row>
+              </v-carousel-item>
+
+                 <v-carousel-item style="height:100%;"
+              >
+                <v-row style="height: 100%;" align="center" justify="center" no-gutters>
+                  <v-col align="center" class="pa-3" justify="center" cols="12" sm="4" md="4">
+
+              <v-img class="ma-3" style="max-height:1000px;" src="/editorial2.jpg"></v-img>
+                  </v-col>
+                  <v-col cols="12" sm="12" md="8" align="left" class="pa-5">
+                    <div style="font-size: 20px;">
+                    <!-- <p><v-icon style="color:#FF5349">mdi-format-quote-open</v-icon></p> -->
+                    <!-- <br> -->
+                    <h3>SAGOT SA KRISIS: REPORMA SA PAGKAIN</h3>
+
+                    <p style="font-size: 18px;">
+                      Hindi lamang ito krisis sa langis o pagtaas ng presyo—ito ay krisis sa kakayahan ng bawat pamilyang Pilipino na makakain nang sapat. Sa gitna ng pandaigdigang tensyon, ang unang natatamaan ay hindi ang merkado kundi ang hapag-kainan ng ordinaryong mamamayan. Kaya sa ilalim ng Reforma Pilipinas, malinaw ang panawagan: unahin ang sikmura, siguruhin ang pagkain. Hindi sapat ang pag-asa sa supply; kailangang palakasin ang kakayahan ng bawat Pilipino na makabili, makapagtipid, at makapagtanim.
+
+                      Ang tugon ay nakatuon sa tatlong magkakaugnay na hakbang. Una, protektahan ang kakayahan ng pamilya na makabili ng pagkain, lalo na ang pinaka-nangangailangan—dahil walang Pilipinong dapat magutom. Ikalawa, ayusin ang paggamit ng yaman sa pamamagitan ng pag-iwas sa hindi kailangang konsumo at pagyakap sa disiplina, sapagkat ang pagtitipid ng isa ay proteksyon ng lahat. Ikatlo, palakasin ang lokal na produksyon ng pagkain—mula sa simpleng pagtatanim sa paso hanggang sa sama-samang gulayan sa barangay—upang ang bawat Pilipino ay maging bahagi ng solusyon, hindi lamang konsyumer kundi tagalikha.
+
+                      Sa ganitong panahon, bumabalik tayo sa ating pinakamatibay na sandigan: ang bayanihan. Sa bawat rehiyon—Luzon, Visayas, at Mindanao—may kakayahan tayong magtulungan, magbahaginan, at magtaguyod ng isa’t isa. Ang tunay na lakas ng bansa ay hindi lamang nasusukat sa ekonomiya kundi sa malasakit at pagkakaisa ng mamamayan. Ito ang diwa ng Green Demand Reset: hindi simpleng programa, kundi pagbabago ng pananaw—mula sa “ano ang bibilhin ko” tungo sa “ano ang maibabahagi ko at maitataguyod ko.”
+
+                      Sa huli, malinaw ang dapat pagtuunan: hindi luho, hindi ingay ng politika, kundi ang laman ng plato ng bawat Pilipino. Sama-sama tayong magtanim, magtipid, at magmalasakit—sapagkat ang bansang may sapat na pagkain ay bansang may matatag na kinabukasan.
+
+                      <br>
+                      <br>
+                      - Reforma Pilipinas 
+                      <br>
+                      #ReformaPilipinas #TatakReformaPilipinas 
+                      #Pilipinas #Philippines
+                    </p>
+                    
+                    </div>
+                  </v-col>
+                </v-row>
+              </v-carousel-item>
+
+            </v-carousel>
+          </div>
+        </v-container>
    
 
   <v-container fluid>
@@ -742,7 +828,13 @@
               </li>
           </div>
         </v-col>
+        <v-col class="mt-5" cols="12" sm="12" md="12">
+          
+          <a href="application.pdf" download><v-btn style="width: 100%;" size="x-large">Download Application Form</v-btn></a>
+        </v-col>
       </v-col>
+
+ 
 
       <!-- form -->
       <v-col cols="12" sm="12" md="6" style="background-color:#f9fafb;">
