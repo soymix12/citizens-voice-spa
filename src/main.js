@@ -9,12 +9,19 @@ import * as directives from 'vuetify/directives'
 import '@mdi/font/css/materialdesignicons.css'
 import App from './App.vue'
 import router from './router'
+import * as labsComponents from 'vuetify/labs/components'
 
 const vuetify = createVuetify({
     icons: {
         defaultSet: 'mdi',
     },
-    components,
+    components: {
+        ...components,
+        ...labsComponents,
+    },
+    colors: {
+        primary: '#FF5349'
+    },
     directives,
 })
 

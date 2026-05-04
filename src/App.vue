@@ -7,7 +7,7 @@
         height="100"
         >
         <template v-slot:prepend>
-          <div style="padding:0px !important; display:flex"  @click="goToHome">
+          <div style="padding:0px !important; display:flex; cursor: pointer;"  @click="goToHome">
             <div style="width:90px;  " class="ma-3"><v-img   @click="goToHome"  style="height:100%; width: 100%;" src="/icon.png"></v-img></div>
             <div style="padding:0px !important;  justify-content: center; 
   align-items: center; display: flex;" @click="goToHome"><h2>REFORMA <span style="color:#FF5349">PILIPINAS</span></h2></div>
@@ -72,7 +72,7 @@
 
               <v-row>
                 <v-col cols="12" sm="12" md="6" style="text-align: center;">
-                  <v-btn color="#FF5349" rounded="xl" size="x-large" class="ma-1">Join the Movement</v-btn>
+                  <v-btn color="#FF5349" rounded="xl" size="x-large" class="ma-1" @click="goToReg">Join the Movement</v-btn>
                 </v-col>
                 <v-col cols="12" sm="12" md="6" style="text-align: center;">
                   <v-btn rounded="xl" color="white"  size="x-large" class="ma-1"><span style="color:#FF5349">Learn Our Story</span></v-btn>
@@ -718,8 +718,13 @@
 
                       <v-container class="text-center">
             <div class="d-flex flex-column ma-8 justify-center align-center">
-              <div><h1>Editorial</h1></div>
-              <v-col cols="12" sm="12" md="6"><p>Hear from citizens who turned their frustration into action and achieved meaningful results in their communities.</p></v-col>
+              <div><h1>Editorial By Dr. Edwin Monares</h1></div>
+              <v-col cols="12" sm="12" md="6"><p>Hear from Dr. Monares who holds a Doctorate in Public Administration and with a Bachelor’s Degree in Political Science.</p>
+                <p v-if="truncateEdit">
+He is an advocate involved in environmental and community projects, recognized for his work as the founder of Save Me Movement.
+
+President of Global Zenith Research and Consulting, Inc. specializing on election campaign management and polling</p>
+              <span style="text-decoration: underline; cursor: pointer;" @click="truncateEdit = !truncateEdit">Read {{ truncateEdit ? 'less' : 'more' }} about Dr. Monares</span></v-col>
             </div>
             <div>  
                 <div class="ma-3">
@@ -834,7 +839,7 @@
                       </li>
                   </div>
                 </v-col>
-
+<!-- 
                 <v-col class="mt-8" style="background-color:#f9fafb; border-radius:10px;"cols="12" sm="12" md="12">
                   <div style="width:100%;" class="pa-5">
                     <h2>Why Join Reforma Pilipinas?</h2>
@@ -851,7 +856,7 @@
                         <b>Regular Updates:</b> Stay informed about policy changes and opportunities
                       </li>
                   </div>
-                </v-col>
+                </v-col> -->
                 <!-- <v-col class="mt-5" cols="12" sm="12" md="12"> -->
                   
                   <!-- <a href="application.pdf" download><v-btn style="width: 100%;" size="x-large">Download Application Form</v-btn></a> -->
@@ -866,63 +871,63 @@
                   
               <v-col cols="12" sm="12" md="4">
                   <v-text-field
-                color="primary"
+                
                 label="First Name"
                 hide-details="auto"
               ></v-text-field>
                 </v-col>
                 <v-col cols="12" sm="12" md="4">
                 <v-text-field
-                  color="primary"
+                  
                   label="Middle Name"
                   hide-details="auto"
                 ></v-text-field>
               </v-col>
               <v-col cols="12" sm="12" md="4">
                 <v-text-field
-                  color="primary"
+                  
                   label="Last Name"
                   hide-details="auto"
                 ></v-text-field>
               </v-col>
               <!-- <v-col cols="12" sm="12" md="1">
                 <v-text-field
-                  color="primary"
+                  
                   label="Suffix"
                   hide-details="auto"
                 ></v-text-field> -->
               <!-- </v-col> -->
               <v-col cols="12" sm="12" md="3">
                 <v-text-field
-                  color="primary"
+                  
                   label="Nickname"
                   hide-details="auto"
                 ></v-text-field>
               </v-col>
               <!-- <v-col cols="12" sm="12" md="3">
                 <v-text-field
-                  color="primary"
+                  
                   label="Telephone Number"
                   hide-details="auto"
                 ></v-text-field>
               </v-col> -->
               <v-col cols="12" sm="12" md="4">
                 <v-text-field
-                  color="primary"
+                  
                   label="Cellphone Number"
                   hide-details="auto"
                 ></v-text-field>
               </v-col>
                 <v-col cols="12" sm="12" md="5">
                   <v-text-field
-                color="primary"
+                
                 label="Email"
                 hide-details="auto"
               ></v-text-field>
               </v-col>
                 <v-col cols="12" sm="12" md="3">
                   <v-select
-                color="primary"
+                
                 label="Gender"
                 hide-details="auto"
                 :items="['Male', 'Female', 'Prefer Not To Say']"
@@ -930,7 +935,7 @@
                 </v-col>
                 <v-col cols="12" sm="12" md="3">
                   <v-select
-                color="primary"
+                
                 label="Civil Status"
                 hide-details="auto"
                 :items="['Single', 'Married', 'Separated', 'Widow']"
@@ -938,21 +943,21 @@
                 </v-col>
                 <v-col cols="12" sm="12" md="6">
                   <v-text-field
-                color="primary"
+                
                 label="Name of Spouse, if married"
                 hide-details="auto"
               ></v-text-field>
                 </v-col>
                 <v-col cols="12" sm="12" md="4">
                   <v-text-field
-                color="primary"
+                
                 label="Date Of Birth"
                 hide-details="auto"
               ></v-text-field>
                 </v-col>
                 <v-col cols="12" sm="12" md="2">
                   <v-text-field
-                color="primary"
+                
                 label="Age"
                 hide-details="auto"
               ></v-text-field>
@@ -960,35 +965,35 @@
           
                 <v-col cols="12" sm="12" md="3">
                   <v-text-field
-                color="primary"
+                
                 label="Place of Birth"
                 hide-details="auto"
               ></v-text-field>
                 </v-col>
                 <v-col cols="12" sm="12" md="3">
                   <v-text-field
-                color="primary"
+                
                 label="Religion"
                 hide-details="auto"
               ></v-text-field>
                 </v-col>
                 <v-col cols="12" sm="12" md="2">
                   <v-text-field
-                color="primary"
+                
                 label="Number"
                 hide-details="auto"
               ></v-text-field>
                 </v-col>
                 <v-col cols="12" sm="12" md="5">
                   <v-text-field
-                color="primary"
+                
                 label="Street/Purok No."
                 hide-details="auto"
               ></v-text-field>
                 </v-col>
                 <v-col cols="12" sm="12" md="5">
                   <v-text-field
-                color="primary"
+                
                 label="Subdivision/Sitio/Neighborhood"
                 hide-details="auto"
               ></v-text-field>
@@ -996,117 +1001,187 @@
 
                 <v-col cols="12" sm="12" md="3">
                   <v-text-field
-                color="primary"
+                
                 label="Barangay"
                 hide-details="auto"
               ></v-text-field>
                 </v-col>
                 <v-col cols="12" sm="12" md="3">
                   <v-text-field
-                color="primary"
+                
                 label="City/Municipality"
                 hide-details="auto"
               ></v-text-field>
                 </v-col>
                 <v-col cols="12" sm="12" md="3">
                   <v-text-field
-                color="primary"
+                
                 label="Province"
                 hide-details="auto"
               ></v-text-field>
                 </v-col>
                 <v-col cols="12" sm="12" md="3">
                   <v-text-field
-                color="primary"
+                
                 label="District"
                 hide-details="auto"
               ></v-text-field>
                 </v-col>
+               <v-col cols="12"><p><b>Educational Attainment</b></p></v-col>
+              <v-col cols="12" sm="12" md="6">
+                  <v-text-field
                 
-                <v-row style="padding:0px; margin:0px;">
-                  <v-col cols="12" sm="12" md="12"><p>Issues You Care About (Select all that apply)</p></v-col>
-                  <v-col cols="6" sm="6" md="6">
-                  
-                    <v-checkbox
-            
-                    color="red"
-                    label="Healthcare Reform"
-                    value="red"
-                    hide-details
-                  ></v-checkbox>
-                  <v-checkbox
-            
-                    color="red"
-                    label="Infrastructure"
-                    value="red"
-                    hide-details
-                  ></v-checkbox>
-                  <v-checkbox
-                    color="red"
-                    label="Housing Rights"
-                    value="red"
-                    hide-details
-                  ></v-checkbox>
-                  <v-checkbox
-              
-                    color="red"
-                    label="Criminal Justice Reform"
-                    value="red"
-                    hide-details
-                  ></v-checkbox>
-                  
+                label="Name of School/Level/Degree:"
+                hide-details="auto"
+              ></v-text-field>
+                </v-col>
+              <v-col cols="12" sm="12" md="6">
+                  <v-text-field
+                
+                label="Year Graduated"
+                hide-details="auto"
+              ></v-text-field>
+                </v-col>
+                   <v-col cols="12"><p><b>Professional/Occupation/Section</b></p></v-col>
+                <v-radio-group v-model="radios">
+                <!-- <v-col cols="12" sm="12" md="12"> -->
+                  <v-row>
+                      <v-col cols="3"><v-radio value="govtofficial" @click="handleCheckbox" label="Gov't Official"></v-radio></v-col>
+                  <v-col cols="4">
+                       <v-text-field
+                    
+                    label="Elected Position"
+                    :disabled="radios !== 'govtofficial'"
+                    hide-details="auto"
+                    density="compact"
+                    
+                  ></v-text-field>
                   </v-col>
-                  <v-col cols="6" sm="6" md="6">
-                    <v-checkbox
-              
-                    color="red"
-                    label="Education Funding"
-                    value="red"
-                    hide-details
-                  ></v-checkbox>
-                  <v-checkbox
-              
-                    color="red"
-                    label="Veterans Affairs"
-                    value="red"
-                    hide-details
-                  ></v-checkbox>
-                  <v-checkbox
-              
-                    color="red"
-                    label="Environmental Protection"
-                    value="red"
-                    hide-details
-                  ></v-checkbox>
-                  <v-checkbox
-          
-                    color="red"
-                    label="Economic Justice"
-                    value="Economic Justice"
-                    hide-details
-                  ></v-checkbox>
-                  
+                  <v-col cols="5">
+                          <v-date-input
+                    
+                       :disabled="radios !== 'govtofficial'"
+                    label="Term of Office"
+                    hide-details="auto"
+                        multiple="range"
+                        density="compact"
+                  ></v-date-input>
                   </v-col>
-                </v-row>
+               
+                  </v-row>
+                  
+                <!-- </v-col> -->
+
+                 <v-col cols="12" sm="12" md="12">
+                    <v-row>
+                                    <v-col cols="3"><v-radio value="govtemployee" label="Gov't Employee"></v-radio></v-col>
+                                <v-col cols="9">
+                                    <v-text-field
+                                  
+
+                                     :disabled="radios !== 'govtemployee'"
+                                  label="Gov't Office"
+                                  hide-details="auto"
+                                  density="compact"
+                                ></v-text-field>
+                              </v-col>
+                          <v-col
+                      cols="12"
+                      md="4"
+                      sm="4"
+                    >
+                      <v-radio
+                        label="Entrepreneur"
+                        @click="selected"
+                        hide-details
+                      ></v-radio>
+                      <v-radio
+                        label="Private Employee"
+                        value="red-darken-3"
+                        hide-details
+                      ></v-radio>
+                    </v-col>
+                    <v-col
+                      cols="12"
+                      md="4"
+                      sm="4"
+                    >
+                      <v-radio
+                        label="Cooperative/NGO"
+                        value="indigo"
+                        hide-details
+                      ></v-radio>
+                      <v-radio
+                        label="Unemployed"
+                        value="indigo-darken-3"
+                        hide-details
+                      ></v-radio>
+                    </v-col>
+                    <v-col
+                      cols="12"
+                      md="4"
+                      sm="4"
+                    >
+                      <v-radio
+                        label="Self-employed"
+                        value="orange"
+                        hide-details
+                      ></v-radio>
+                      <v-radio
+                        label="Other"
+                        value="orange-darken-3"
+                        hide-details
+                      ></v-radio>
+                    </v-col>
+               
+                  </v-row>
+                  
+                </v-col>
+                </v-radio-group>
+                <v-col cols="12">
+                  <p><b>Membership/Involvement/Employment with other Political Parties/Party List Groups/Organizations/Companies/Agencies</b></p>
+                </v-col>
+                <v-col lg="12">
+                  <v-row>
+                          <v-col lg="4"><v-text-field    
+                    label="Organization / Company / Agency"
+                    hide-details="auto"></v-text-field></v-col>
+                  <v-col lg="4"><v-text-field    
+                    label="Designation"
+                    hide-details="auto"></v-text-field></v-col>
+                  <v-col lg="4"><v-text-field    
+                    label="Year Joined / Term"
+                    hide-details="auto"></v-text-field></v-col>
+                  </v-row>
+            
+                </v-col>
                 <!-- <v-col cols="12" sm="12" md="12">
                   <v-text-field
-                color="primary"
+                
                 label="Email"
                 hide-details="auto"
               ></v-text-field>
                 </v-col> -->
+
                 <v-col cols="12" sm="12" md="12">
-                  <v-textarea
-              label="What motivates you to join"
-              name="input-7-1"
-              variant="filled"
-              hide-details="auto"
-              auto-grow
-            ></v-textarea>
+                  <v-row>
+                          <v-col cols="1">
+                    <v-checkbox v-model="consent"></v-checkbox>
+                  </v-col>
+                  <v-col cols="11">                  
+                        I hereby voluntarily give my consent to the collection, use, and processing of my personal information for membership,
+                        documentation, and related organizational purposes. I understand that my personal data shall be treated with strict
+                        confidentiality and shall not be disclosed to any third party without my consent, except when required by law or authorized
+                        by competent authorities.
+                        By signing or submitting this form, I confirm that I have read and understood this waiver and freely agree to the terms stated
+                    herein
+                  </v-col>
+                  </v-row>
+            
             
               </v-col>
                 <v-col cols="12" sm="12" md="12">
-                  <v-btn color="#DC2626" size="x-large" block>Join Reforma Pilipinas</v-btn>
+                  <v-btn :disabled="!consent" color="#DC2626" size="x-large" block>Join Reforma Pilipinas</v-btn>
                 </v-col>
                 </v-row>
                 
@@ -1197,6 +1272,11 @@ import { ref, nextTick } from 'vue'
   export default {
     data () {
       return {
+        radios: null,
+      selectedProfession: [],
+
+      consent: false,
+      truncateEdit: false,
       isRegistering: false,
       items: [{name: 'Register'}, {name: 'Download Form'}],
         path: '',
@@ -1232,6 +1312,9 @@ import { ref, nextTick } from 'vue'
     this.setCircle(true)
   },
   methods: {
+    handleCheckbox (value) {
+      this.selectedProfession = value
+    },
     download () {
       var link = document.createElement("a");
       link.setAttribute('download', name);
@@ -1317,6 +1400,9 @@ import { ref, nextTick } from 'vue'
 
 </script>
 <style>
+.v-text-field--outlined fieldset {
+    color: red !important;
+}
   .wrap-text {
     -webkit-line-clamp: unset !important;
     white-space: normal;
@@ -1531,6 +1617,17 @@ body {
   100% {
     transform: rotate(360deg);
   }
+}
+.custom-outline :deep(.v-field__outline__start) {
+  border-color: red !important;
+}
+
+.custom-outline :deep(.v-field__outline__end) {
+  border-color: red !important;
+}
+
+.custom-outline :deep(.v-field__outline__notch) {
+  color: red !important;
 }
 
 
